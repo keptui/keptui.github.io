@@ -1,0 +1,587 @@
+[
+  {
+    "id": 1,
+    "path": "/v01/",
+    "note": "clean baseline",
+    "pages": 30,
+    "issues": {},
+    "robots": []
+  },
+  {
+    "id": 2,
+    "path": "/v02/",
+    "note": "duplicate title on 2 pages",
+    "pages": 30,
+    "issues": {
+      "duplicateTitle": [
+        1,
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 3,
+    "path": "/v03/",
+    "note": "duplicate title on 4 pages",
+    "pages": 30,
+    "issues": {
+      "duplicateTitle": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 4,
+    "path": "/v04/",
+    "note": "duplicate title on 15 pages",
+    "pages": 30,
+    "issues": {
+      "duplicateTitle": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 5,
+    "path": "/v05/",
+    "note": "duplicate title on 30 pages",
+    "pages": 30,
+    "issues": {
+      "duplicateTitle": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 6,
+    "path": "/v06/",
+    "note": "title too long on 1 page",
+    "pages": 30,
+    "issues": {
+      "longTitle": [
+        1
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 7,
+    "path": "/v07/",
+    "note": "title too long on 3 pages",
+    "pages": 30,
+    "issues": {
+      "longTitle": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 8,
+    "path": "/v08/",
+    "note": "title too long on 15 pages",
+    "pages": 30,
+    "issues": {
+      "longTitle": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 9,
+    "path": "/v09/",
+    "note": "title too long on 30 pages",
+    "pages": 30,
+    "issues": {
+      "longTitle": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 10,
+    "path": "/v10/",
+    "note": "missing title on 3 pages",
+    "pages": 30,
+    "issues": {
+      "missingTitle": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 11,
+    "path": "/v11/",
+    "note": "duplicate description on 3 pages",
+    "pages": 30,
+    "issues": {
+      "duplicateDescription": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 12,
+    "path": "/v12/",
+    "note": "3 broken internal links (4xx targets)",
+    "pages": 30,
+    "issues": {
+      "broken": 3
+    },
+    "robots": []
+  },
+  {
+    "id": 13,
+    "path": "/v13/",
+    "note": "JSON-LD that does not parse on 3 pages",
+    "pages": 30,
+    "issues": {
+      "badJsonld": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 14,
+    "path": "/v14/",
+    "note": "missing meta description on 3 pages",
+    "pages": 30,
+    "issues": {
+      "missingDescription": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 15,
+    "path": "/v15/",
+    "note": "missing h1 on 3 pages",
+    "pages": 30,
+    "issues": {
+      "missingH1": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 16,
+    "path": "/v16/",
+    "note": "low word count on 3 pages",
+    "pages": 30,
+    "issues": {
+      "lowWords": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 17,
+    "path": "/v17/",
+    "note": "images without alt on 3 pages",
+    "pages": 30,
+    "issues": {
+      "missingAlt": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 18,
+    "path": "/v18/",
+    "note": "nofollow internal link on 3 pages",
+    "pages": 30,
+    "issues": {
+      "nofollowInternal": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 19,
+    "path": "/v19/",
+    "note": "duplicate title on 4 pages + title too long on 3 others",
+    "pages": 30,
+    "issues": {
+      "duplicateTitle": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "longTitle": [
+        5,
+        6,
+        7
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 20,
+    "path": "/v20/",
+    "note": "duplicate title on 4 pages + duplicate description on 3 others",
+    "pages": 30,
+    "issues": {
+      "duplicateTitle": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "duplicateDescription": [
+        5,
+        6,
+        7
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 21,
+    "path": "/v21/",
+    "note": "title too long, missing description, missing h1, 3 pages each",
+    "pages": 30,
+    "issues": {
+      "longTitle": [
+        1,
+        2,
+        3
+      ],
+      "missingDescription": [
+        4,
+        5,
+        6
+      ],
+      "missingH1": [
+        7,
+        8,
+        9
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 22,
+    "path": "/v22/",
+    "note": "10 pages, title too long on 1",
+    "pages": 10,
+    "issues": {
+      "longTitle": [
+        1
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 23,
+    "path": "/v23/",
+    "note": "60 pages, title too long on 6",
+    "pages": 60,
+    "issues": {
+      "longTitle": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 24,
+    "path": "/v24/",
+    "note": "nofollow external link on 15 pages",
+    "pages": 30,
+    "issues": {
+      "nofollowExternal": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 25,
+    "path": "/v25/",
+    "note": "15 broken internal links",
+    "pages": 30,
+    "issues": {
+      "broken": 15
+    },
+    "robots": []
+  },
+  {
+    "id": 26,
+    "path": "/v26/",
+    "note": "GPTBot disallowed on the whole folder",
+    "pages": 30,
+    "issues": {},
+    "robots": [
+      [
+        "GPTBot",
+        "/v26/"
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "path": "/v27/",
+    "note": "every major AI bot disallowed on the whole folder",
+    "pages": 30,
+    "issues": {},
+    "robots": [
+      [
+        "GPTBot",
+        "/v27/"
+      ],
+      [
+        "OAI-SearchBot",
+        "/v27/"
+      ],
+      [
+        "ChatGPT-User",
+        "/v27/"
+      ],
+      [
+        "ClaudeBot",
+        "/v27/"
+      ],
+      [
+        "Claude-SearchBot",
+        "/v27/"
+      ],
+      [
+        "Claude-User",
+        "/v27/"
+      ],
+      [
+        "PerplexityBot",
+        "/v27/"
+      ],
+      [
+        "Perplexity-User",
+        "/v27/"
+      ],
+      [
+        "Google-Extended",
+        "/v27/"
+      ],
+      [
+        "CCBot",
+        "/v27/"
+      ],
+      [
+        "Applebot-Extended",
+        "/v27/"
+      ],
+      [
+        "Bytespider",
+        "/v27/"
+      ],
+      [
+        "meta-externalagent",
+        "/v27/"
+      ]
+    ]
+  },
+  {
+    "id": 28,
+    "path": "/v28/",
+    "note": "noindex on 3 pages",
+    "pages": 30,
+    "issues": {
+      "noindex": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 29,
+    "path": "/v29/",
+    "note": "mixed content (http image) on 3 pages",
+    "pages": 30,
+    "issues": {
+      "mixedContent": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 30,
+    "path": "/v30/",
+    "note": "invalid hreflang codes on 3 pages",
+    "pages": 30,
+    "issues": {
+      "badHreflang": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 31,
+    "path": "/v31/",
+    "note": "HTML over 2 MB on 3 pages",
+    "pages": 30,
+    "issues": {
+      "largeHtml": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 32,
+    "path": "/v32/",
+    "note": "clean baseline, repeated",
+    "pages": 30,
+    "issues": {},
+    "robots": []
+  }
+]
