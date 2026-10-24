@@ -40,3 +40,5 @@ Disallow: /v27/
 
 User-agent: meta-externalagent
 Disallow: /v27/
+
+Sitemap: https://keptui.github.io/sitemap.xml
