@@ -583,5 +583,108 @@
     "pages": 30,
     "issues": {},
     "robots": []
+  },
+  {
+    "id": 33,
+    "path": "/v33/",
+    "note": "heading skips h1 to h3 on 3 pages",
+    "pages": 30,
+    "issues": {
+      "headingSkip": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 34,
+    "path": "/v34/",
+    "note": "one 300-word paragraph on 3 pages",
+    "pages": 30,
+    "issues": {
+      "longParagraph": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 35,
+    "path": "/v35/",
+    "note": "heading skip and a 300-word paragraph on the same 3 pages",
+    "pages": 30,
+    "issues": {
+      "headingSkip": [
+        1,
+        2,
+        3
+      ],
+      "longParagraph": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 36,
+    "path": "/v36/",
+    "note": "hard-to-read text (40-word sentences of long words) on 3 pages",
+    "pages": 30,
+    "issues": {
+      "lowReadability": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 37,
+    "path": "/v37/",
+    "note": "link to a .json file on 3 pages",
+    "pages": 30,
+    "issues": {
+      "jsonLink": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 38,
+    "path": "/v38/",
+    "note": "link to a .pdf file on 3 pages",
+    "pages": 30,
+    "issues": {
+      "pdfLink": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 39,
+    "path": "/v39/",
+    "note": "link to a .png image on 3 pages",
+    "pages": 30,
+    "issues": {
+      "imageLink": [
+        1,
+        2,
+        3
+      ]
+    },
+    "robots": []
   }
 ]
