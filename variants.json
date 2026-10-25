@@ -2674,6 +2674,26 @@
     }
   },
   {
+    "id": 64,
+    "path": "/v64/",
+    "note": "probe set M: the teams copy with its breadcrumb or chat button swapped for 3, 4 or 5 long words, or both for 6",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams-c3",
+        "teams-c4",
+        "teams-b3",
+        "teams-b4",
+        "teams-b5",
+        "teams-c5",
+        "teams-cb6"
+      ],
+      "ratios": []
+    }
+  },
+  {
     "id": 63,
     "path": "/v63/",
     "note": "theme weights: broken link to another site on 10 pages, hreflang conflicts on 5, 25 skipped heading levels on 5, duplicate content on 3",
