@@ -847,5 +847,25 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 48,
+    "path": "/v48/",
+    "note": "probe set G: one page-wide change to the teams copy, same words (main and sections made divs, classes, icons or attributes taken out, line breaks before blocks, headings made paragraphs)",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams-g-main",
+        "teams-g-section",
+        "teams-g-noclass",
+        "teams-g-nodeco",
+        "teams-g-newlines",
+        "teams-g-headings",
+        "teams-g-noattrs"
+      ],
+      "ratios": []
+    }
   }
 ]
