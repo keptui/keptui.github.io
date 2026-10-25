@@ -867,5 +867,25 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 49,
+    "path": "/v49/",
+    "note": "probe set H: real words or random letters (the teams copy in English words, all or main only; random-letter pages of 210, 230, 260 words; language tag removed; Finnish tag)",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams-english",
+        "gib210",
+        "gib230",
+        "gib260",
+        "teams-nolang",
+        "gib210fi",
+        "teams-english-main"
+      ],
+      "ratios": []
+    }
   }
 ]
