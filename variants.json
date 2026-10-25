@@ -702,5 +702,65 @@
     "pages": 8,
     "issues": {},
     "robots": []
+  },
+  {
+    "id": 42,
+    "path": "/v42/",
+    "note": "probe set A: title, 200-word line, nav, footer, header, div; ratio title, units, rounding, script; span ladder",
+    "pages": 164,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "title",
+        "eq200",
+        "tot200",
+        "nav",
+        "footer",
+        "header",
+        "div"
+      ],
+      "ratios": [
+        "title",
+        "unit",
+        "html",
+        "round",
+        "script"
+      ],
+      "spans": [
+        3,
+        7,
+        12,
+        17,
+        27,
+        57
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "path": "/v43/",
+    "note": "probe set B: aside, glued spans, letters, numbers, table, list, links; ratio alt, noscript, whitespace, svg, hidden",
+    "pages": 158,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "aside",
+        "glued",
+        "letters",
+        "numbers",
+        "table",
+        "list",
+        "links"
+      ],
+      "ratios": [
+        "alt",
+        "noscript",
+        "space",
+        "svg",
+        "hidden"
+      ]
+    }
   }
 ]
