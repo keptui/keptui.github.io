@@ -686,5 +686,21 @@
       ]
     },
     "robots": []
+  },
+  {
+    "id": 40,
+    "path": "/v40/",
+    "note": "word-count ladder: where the 200-word line falls, and which text counts",
+    "pages": 16,
+    "issues": {},
+    "robots": []
+  },
+  {
+    "id": 41,
+    "path": "/v41/",
+    "note": "text-to-HTML ratio ladder: bytes or characters, near 10%",
+    "pages": 8,
+    "issues": {},
+    "robots": []
   }
 ]
