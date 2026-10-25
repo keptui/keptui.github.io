@@ -950,5 +950,31 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 53,
+    "path": "/v53/",
+    "note": "probe set L: three short words in a block of 10, 20, 40, 60, 90 or 150 words (one page each), and short words last in a block, in list items, in a chat button and in a breadcrumb",
+    "pages": 126,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "lastshort",
+        "lishort",
+        "chatbtn",
+        "crumb"
+      ],
+      "firstWeight": 3,
+      "ladder": [
+        "blk10",
+        "blk20",
+        "blk40",
+        "blk60",
+        "blk90",
+        "blk150"
+      ],
+      "ratios": []
+    }
   }
 ]
