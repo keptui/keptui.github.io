@@ -2694,6 +2694,26 @@
     }
   },
   {
+    "id": 65,
+    "path": "/v65/",
+    "note": "probe set N: the teams copy +2 words, both parts swapped for 6, button swapped for 4, crumb swapped for 3, each type in copies with the same letters (seeds A, B, C)",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams+2A",
+        "teams+2B",
+        "teams+2C",
+        "teams-cb6A",
+        "teams-cb6B",
+        "teams-b4A",
+        "teams-c3A"
+      ],
+      "ratios": []
+    }
+  },
+  {
     "id": 63,
     "path": "/v63/",
     "note": "theme weights: broken link to another site on 10 pages, hreflang conflicts on 5, 25 skipped heading levels on 5, duplicate content on 3",
