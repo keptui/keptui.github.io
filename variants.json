@@ -2567,5 +2567,110 @@
         36
       ]
     }
+  },
+  {
+    "id": 62,
+    "path": "/v62/",
+    "note": "theme weights: nofollow link to the next page on 30 pages, bad hreflang codes on 10, unminified script on 30, structured data valid on 10 and invalid on 3, no llms.txt",
+    "pages": 60,
+    "issues": {
+      "nofollowInternal": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "badHreflang": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "jsFile": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "validSchema": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "invalidSchema": [
+        51,
+        52,
+        53
+      ]
+    },
+    "robots": [],
+    "site": {
+      "noLlms": true
+    }
   }
 ]
