@@ -887,5 +887,28 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 50,
+    "path": "/v50/",
+    "note": "probe set I: the teams copy with 1 or 2 words added (one page each), and its intro, cards, closing block, card texts and footer each on its own after plain words (202 words in all)",
+    "pages": 126,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "iso-intro",
+        "iso-cards",
+        "iso-cta",
+        "iso-cardsp",
+        "iso-footer"
+      ],
+      "firstWeight": 2,
+      "ladder": [
+        "teams+1",
+        "teams+2"
+      ],
+      "ratios": []
+    }
   }
 ]
