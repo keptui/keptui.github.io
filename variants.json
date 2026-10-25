@@ -2714,6 +2714,88 @@
     }
   },
   {
+    "id": 66,
+    "path": "/v66/",
+    "note": "probe set O: the teams copy +3 words under seven letter sets, each type in copies with the same letters",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams+3s1",
+        "teams+3s2",
+        "teams+3s3",
+        "teams+3s4",
+        "teams+3s5",
+        "teams+3s6",
+        "teams+3s7"
+      ],
+      "ratios": []
+    }
+  },
+  {
+    "id": 67,
+    "path": "/v67/",
+    "note": "theme weights: 3 pages with the same title and body, 5 orphan sitemap pages, hreflang to a missing page on 5, 5 http URLs in the sitemap, llms.txt without its title line",
+    "pages": 60,
+    "issues": {
+      "duplicateTitle": [
+        51,
+        52,
+        53
+      ],
+      "dupBody": [
+        51,
+        52,
+        53
+      ],
+      "hreflangBroken": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    "robots": [],
+    "site": {
+      "orphans": 5,
+      "httpSitemap": 5,
+      "llmsBad": true
+    }
+  },
+  {
+    "id": 68,
+    "path": "/v68/",
+    "note": "theme weights: a link over http to a folder without its slash (two redirects) on 5 pages",
+    "pages": 60,
+    "issues": {
+      "chainLink": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 69,
+    "path": "/v69/",
+    "note": "theme weights: a chain of 8 notes linked one after another from one page, so 6 sit more than 3 clicks deep",
+    "pages": 60,
+    "issues": {
+      "deepLink": [
+        60
+      ]
+    },
+    "robots": [],
+    "site": {
+      "deep": 8
+    }
+  },
+  {
     "id": 63,
     "path": "/v63/",
     "note": "theme weights: broken link to another site on 10 pages, hreflang conflicts on 5, 25 skipped heading levels on 5, duplicate content on 3",
