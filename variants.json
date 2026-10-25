@@ -930,5 +930,25 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 52,
+    "path": "/v52/",
+    "note": "probe set K: three short words among 197 long ones (real twice, random, two-letter, function words, common words), and the teams copy with its real short words kept",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "short-real3",
+        "short-real3b",
+        "short-scr3",
+        "short-stop2",
+        "short-func3",
+        "short-sat3",
+        "teams-realshort"
+      ],
+      "ratios": []
+    }
   }
 ]
