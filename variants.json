@@ -782,5 +782,30 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 45,
+    "path": "/v45/",
+    "note": "probe set D: the satisfy.chat teams copy with 3, 6, 12, 25 or 50 words added (one page each), and with nav, header and footer, links or buttons renamed",
+    "pages": 125,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams-nav2div",
+        "teams-hf2div",
+        "teams-a2span",
+        "teams-button2span"
+      ],
+      "firstWeight": 3,
+      "ladder": [
+        "teams+3",
+        "teams+6",
+        "teams+12",
+        "teams+25",
+        "teams+50"
+      ],
+      "ratios": []
+    }
   }
 ]
