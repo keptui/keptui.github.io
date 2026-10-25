@@ -807,5 +807,25 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 46,
+    "path": "/v46/",
+    "note": "probe set E: the satisfy.chat teams copy with one part swapped for as many plain words (footer, header, intro, cards, closing block, small parts, CSS-hidden parts)",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams-no-footer",
+        "teams-no-header",
+        "teams-no-intro",
+        "teams-no-cards",
+        "teams-no-cta",
+        "teams-no-small",
+        "teams-no-hidden"
+      ],
+      "ratios": []
+    }
   }
 ]
