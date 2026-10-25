@@ -827,5 +827,25 @@
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 47,
+    "path": "/v47/",
+    "note": "probe set F: smaller parts of the teams copy's main content swapped for as many plain words (intro heading, intro text, intro bits, card headings, card texts, card labels, closing headings)",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "teams-intro-h1",
+        "teams-intro-p",
+        "teams-intro-misc",
+        "teams-cards-h3",
+        "teams-cards-p",
+        "teams-cards-spans",
+        "teams-cta-heads"
+      ],
+      "ratios": []
+    }
   }
 ]
