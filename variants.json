@@ -762,5 +762,25 @@
         "hidden"
       ]
     }
+  },
+  {
+    "id": 44,
+    "path": "/v44/",
+    "note": "probe set C: short text pieces (one-word paragraphs, a footer link list, two-word paragraphs, one-word headings) and structure copies of founder-site pages just over 200 words",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "p1",
+        "footlinks",
+        "p2",
+        "h2one",
+        "clone:satisfy-teams",
+        "clone:satisfy-size",
+        "clone:mobileproxy-fi-aup"
+      ],
+      "ratios": []
+    }
   }
 ]
