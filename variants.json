@@ -2849,6 +2849,14 @@
     }
   },
   {
+    "id": 76,
+    "path": "/v76/",
+    "note": "clean baseline, 30 pages, as v01: the second 2026-10-26 project against the first study project",
+    "pages": 30,
+    "issues": {},
+    "robots": []
+  },
+  {
     "id": 74,
     "path": "/v74/",
     "note": "an empty set (its index page only): the first crawl of a new project, so later crawls re-read only these few addresses",
