@@ -3061,6 +3061,17 @@
     }
   },
   {
+    "id": 101,
+    "path": "/v101/",
+    "note": "hreflang en and x-default on the homepage written without the slash (https://keptui.github.io), nothing else",
+    "pages": 40,
+    "issues": {},
+    "robots": [],
+    "site": {
+      "rootHreflangNoSlash": true
+    }
+  },
+  {
     "id": 84,
     "path": "/v84/",
     "note": "redirect chains: a link over http to a folder without its slash on 5 pages (two redirects each), as v68 on a clean project",
