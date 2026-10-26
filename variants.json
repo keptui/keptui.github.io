@@ -2796,6 +2796,26 @@
     }
   },
   {
+    "id": 72,
+    "path": "/v72/",
+    "note": "probe set P: letter sets 1 and 3 of the teams copy +3, mixed word by word by bits 0 to 6 of the word number",
+    "pages": 127,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "mix-bit0",
+        "mix-bit1",
+        "mix-bit2",
+        "mix-bit3",
+        "mix-bit4",
+        "mix-bit5",
+        "mix-bit6"
+      ],
+      "ratios": []
+    }
+  },
+  {
     "id": 70,
     "path": "/v70/",
     "note": "clean baseline, 160 pages (where Site Health's base turns from 92 to 93)",

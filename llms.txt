@@ -1,5 +1,7 @@
-Site audit study
+# Site audit study
 
-Test pages for a study of how site audit tools count issues and scores. Placeholder text only.
+> Test pages for a study of how site audit tools count issues and scores. Placeholder text only.
 
-Current test set: https://keptui.github.io/v67/
+## Pages
+
+- [Current test set](https://keptui.github.io/v68/): the variant being crawled now
