@@ -3061,6 +3061,189 @@
     }
   },
   {
+    "id": 104,
+    "path": "/v104/",
+    "note": "second Site Health point: no title on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "missingTitle": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 105,
+    "path": "/v105/",
+    "note": "second Site Health point: a nofollow internal link on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "nofollowInternal": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 106,
+    "path": "/v106/",
+    "note": "second Site Health point: a title over 70 characters on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "longTitle": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 107,
+    "path": "/v107/",
+    "note": "second Site Health point: invalid hreflang codes on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "badHreflang": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 108,
+    "path": "/v108/",
+    "note": "second Site Health point: HTML over 2 MB on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "largeHtml": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 109,
+    "path": "/v109/",
+    "note": "second Site Health point: an unminified script on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "jsFile": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 110,
+    "path": "/v110/",
+    "note": "second Site Health point: an hreflang conflict on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "hreflangConflict": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 111,
+    "path": "/v111/",
+    "note": "second Site Health point: a broken link to another site on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "brokenExternal": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 112,
+    "path": "/v112/",
+    "note": "second Site Health point: a canonical URL that answers 404 on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "badCanonical": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 113,
+    "path": "/v113/",
+    "note": "second Site Health point: two canonical URLs on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "multiCanonical": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 114,
+    "path": "/v114/",
+    "note": "second Site Health point: no viewport tag on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "noViewport": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 115,
+    "path": "/v115/",
+    "note": "second Site Health point: a viewport tag without width on 1 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "badViewport": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 116,
+    "path": "/v116/",
+    "note": "second Site Health point: a duplicate description on 2 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "duplicateDescription": [
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 117,
+    "path": "/v117/",
+    "note": "second Site Health point: 1 page listed over http:// in the sitemap",
+    "pages": 40,
+    "issues": {},
+    "robots": [],
+    "site": {
+      "httpSitemap": 1
+    }
+  },
+  {
+    "id": 118,
+    "path": "/v118/",
+    "note": "second Site Health point: one invalid structured data item beside one valid",
+    "pages": 40,
+    "issues": {
+      "invalidSchema": [
+        2
+      ],
+      "validSchema": [
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
     "id": 102,
     "path": "/v102/",
     "note": "101 script files on 3 of 40 pages, exactly 100 on a fourth, nothing else",
