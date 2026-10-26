@@ -3244,6 +3244,39 @@
     "robots": []
   },
   {
+    "id": 119,
+    "path": "/v119/",
+    "note": "an empty set (its index page only): the first crawl of the third study project, as v74",
+    "pages": 0,
+    "issues": {},
+    "robots": []
+  },
+  {
+    "id": 120,
+    "path": "/v120/",
+    "note": "v112 again: a canonical URL that answers 404 on 1 of 40 pages, to see whether Semrush's 86 repeats",
+    "pages": 40,
+    "issues": {
+      "badCanonical": [
+        2
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 121,
+    "path": "/v121/",
+    "note": "a canonical URL that answers 404 on 2 of 40 pages, between v112 (1) and v86 (3)",
+    "pages": 40,
+    "issues": {
+      "badCanonical": [
+        2,
+        3
+      ]
+    },
+    "robots": []
+  },
+  {
     "id": 102,
     "path": "/v102/",
     "note": "101 script files on 3 of 40 pages, exactly 100 on a fourth, nothing else",
