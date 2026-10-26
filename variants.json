@@ -2798,8 +2798,8 @@
   {
     "id": 72,
     "path": "/v72/",
-    "note": "probe set P: letter sets 1 and 3 of the teams copy +3, mixed word by word by bits 0 to 6 of the word number",
-    "pages": 127,
+    "note": "probe set P: letter sets 1 and 3 of the teams copy +3, mixed word by word by bits 0 to 4 of the word number",
+    "pages": 31,
     "issues": {},
     "robots": [],
     "probe": {
@@ -2808,12 +2808,35 @@
         "mix-bit1",
         "mix-bit2",
         "mix-bit3",
-        "mix-bit4",
-        "mix-bit5",
-        "mix-bit6"
+        "mix-bit4"
       ],
       "ratios": []
     }
+  },
+  {
+    "id": 73,
+    "path": "/v73/",
+    "note": "probe set Q: the same mix by bits 5 to 8 of the word number",
+    "pages": 15,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "mix-bit5",
+        "mix-bit6",
+        "mix-bit7",
+        "mix-bit8"
+      ],
+      "ratios": []
+    }
+  },
+  {
+    "id": 74,
+    "path": "/v74/",
+    "note": "an empty set (its index page only): the first crawl of a new project, so later crawls re-read only these few addresses",
+    "pages": 0,
+    "issues": {},
+    "robots": []
   },
   {
     "id": 70,
