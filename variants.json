@@ -2831,6 +2831,24 @@
     }
   },
   {
+    "id": 75,
+    "path": "/v75/",
+    "note": "probe set R: set 1's letters only on words 256 to 269 by bit (4 types), or only on words 0 to 127",
+    "pages": 31,
+    "issues": {},
+    "robots": [],
+    "probe": {
+      "words": [
+        "mix-tail0",
+        "mix-tail1",
+        "mix-tail2",
+        "mix-tail3",
+        "mix-head"
+      ],
+      "ratios": []
+    }
+  },
+  {
     "id": 74,
     "path": "/v74/",
     "note": "an empty set (its index page only): the first crawl of a new project, so later crawls re-read only these few addresses",
