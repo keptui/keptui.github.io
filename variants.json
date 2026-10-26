@@ -3003,6 +3003,42 @@
     "robots": []
   },
   {
+    "id": 96,
+    "path": "/v96/",
+    "note": "page groups: 3 missing pages listed in the sitemap, nothing else",
+    "pages": 40,
+    "issues": {},
+    "robots": [],
+    "site": {
+      "sitemap404": 3
+    }
+  },
+  {
+    "id": 97,
+    "path": "/v97/",
+    "note": "page groups: 3 pages listed over http:// in the sitemap, nothing else",
+    "pages": 40,
+    "issues": {},
+    "robots": [],
+    "site": {
+      "httpSitemap": 3
+    }
+  },
+  {
+    "id": 98,
+    "path": "/v98/",
+    "note": "page groups and 18: a canonical to p01 on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "canonicalTo1": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
     "id": 84,
     "path": "/v84/",
     "note": "redirect chains: a link over http to a folder without its slash on 5 pages (two redirects each), as v68 on a clean project",
