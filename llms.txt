@@ -4,4 +4,4 @@
 
 ## Pages
 
-- [Current test set](https://keptui.github.io/v71/): the variant being crawled now
+- [Current test set](https://keptui.github.io/v77/): the variant being crawled now
