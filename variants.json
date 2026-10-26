@@ -2849,6 +2849,22 @@
     }
   },
   {
+    "id": 84,
+    "path": "/v84/",
+    "note": "redirect chains: a link over http to a folder without its slash on 5 pages (two redirects each), as v68 on a clean project",
+    "pages": 40,
+    "issues": {
+      "chainLink": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "robots": []
+  },
+  {
     "id": 81,
     "path": "/v81/",
     "note": "Site Health: one incoming link on 150 of 160 pages, nothing else",
