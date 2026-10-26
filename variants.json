@@ -2796,6 +2796,22 @@
     }
   },
   {
+    "id": 70,
+    "path": "/v70/",
+    "note": "clean baseline, 160 pages (where Site Health's base turns from 92 to 93)",
+    "pages": 160,
+    "issues": {},
+    "robots": []
+  },
+  {
+    "id": 71,
+    "path": "/v71/",
+    "note": "clean baseline, 148 pages",
+    "pages": 148,
+    "issues": {},
+    "robots": []
+  },
+  {
     "id": 63,
     "path": "/v63/",
     "note": "theme weights: broken link to another site on 10 pages, hreflang conflicts on 5, 25 skipped heading levels on 5, duplicate content on 3",
