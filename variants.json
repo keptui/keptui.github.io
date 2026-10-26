@@ -3039,6 +3039,28 @@
     "robots": []
   },
   {
+    "id": 99,
+    "path": "/v99/",
+    "note": "the homepage's canonical written without its slash (https://keptui.github.io), nothing else",
+    "pages": 40,
+    "issues": {},
+    "robots": [],
+    "site": {
+      "rootCanonicalNoSlash": true
+    }
+  },
+  {
+    "id": 100,
+    "path": "/v100/",
+    "note": "no robots.txt (GitHub Pages answers 404), nothing else",
+    "pages": 40,
+    "issues": {},
+    "robots": [],
+    "site": {
+      "noRobots": true
+    }
+  },
+  {
     "id": 84,
     "path": "/v84/",
     "note": "redirect chains: a link over http to a folder without its slash on 5 pages (two redirects each), as v68 on a clean project",
