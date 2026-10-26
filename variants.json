@@ -3061,6 +3061,40 @@
     }
   },
   {
+    "id": 102,
+    "path": "/v102/",
+    "note": "101 script files on 3 of 40 pages, exactly 100 on a fourth, nothing else",
+    "pages": 40,
+    "issues": {
+      "manyJs": [
+        2,
+        3,
+        4
+      ],
+      "manyJs100": [
+        5
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 103,
+    "path": "/v103/",
+    "note": "a 2.5 MB minified script on 3 of 40 pages, a 1.9 MB one on a fourth, nothing else",
+    "pages": 40,
+    "issues": {
+      "bigJs": [
+        2,
+        3,
+        4
+      ],
+      "bigJs19": [
+        5
+      ]
+    },
+    "robots": []
+  },
+  {
     "id": 101,
     "path": "/v101/",
     "note": "hreflang en and x-default on the homepage written without the slash (https://keptui.github.io), nothing else",
