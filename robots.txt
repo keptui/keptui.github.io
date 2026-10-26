@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Disallow: /v26/
+Disallow: /v27/
+
+User-agent: OAI-SearchBot
+Disallow: /v27/
+
+User-agent: ChatGPT-User
+Disallow: /v27/
+
+User-agent: ClaudeBot
+Disallow: /v27/
+
+User-agent: Claude-SearchBot
+Disallow: /v27/
+
+User-agent: Claude-User
+Disallow: /v27/
+
+User-agent: PerplexityBot
+Disallow: /v27/
+
+User-agent: Perplexity-User
+Disallow: /v27/
+
+User-agent: Google-Extended
+Disallow: /v27/
+
+User-agent: CCBot
+Disallow: /v27/
+
+User-agent: Applebot-Extended
+Disallow: /v27/
+
+User-agent: Bytespider
+Disallow: /v27/
+
+User-agent: meta-externalagent
+Disallow: /v27/
+
+Sitemap: https://keptui.github.io/sitemap.xml
