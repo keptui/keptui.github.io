@@ -2849,6 +2849,160 @@
     }
   },
   {
+    "id": 85,
+    "path": "/v85/",
+    "note": "Site Health and theme weights: an image that does not exist on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "brokenImage": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 86,
+    "path": "/v86/",
+    "note": "Site Health and theme weights: a canonical URL that answers 404 on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "badCanonical": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 87,
+    "path": "/v87/",
+    "note": "Site Health and theme weights: two canonical URLs on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "multiCanonical": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 88,
+    "path": "/v88/",
+    "note": "Site Health and theme weights: a meta refresh on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "metaRefresh": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 89,
+    "path": "/v89/",
+    "note": "Site Health and theme weights: no viewport tag on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "noViewport": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 90,
+    "path": "/v90/",
+    "note": "Site Health and theme weights: a viewport tag without width on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "badViewport": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 91,
+    "path": "/v91/",
+    "note": "Site Health and theme weights: a title of 7 characters on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "shortTitle": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 92,
+    "path": "/v92/",
+    "note": "Site Health and theme weights: an h1 equal to the title on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "h1IsTitle": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 93,
+    "path": "/v93/",
+    "note": "Site Health and theme weights: no doctype on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "noDoctype": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 94,
+    "path": "/v94/",
+    "note": "Site Health and theme weights: a link with a mistyped scheme (htps://) on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "badScheme": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
+    "id": 95,
+    "path": "/v95/",
+    "note": "Site Health and theme weights: two h1 tags on 3 of 40 pages",
+    "pages": 40,
+    "issues": {
+      "twoH1": [
+        2,
+        3,
+        4
+      ]
+    },
+    "robots": []
+  },
+  {
     "id": 84,
     "path": "/v84/",
     "note": "redirect chains: a link over http to a folder without its slash on 5 pages (two redirects each), as v68 on a clean project",
